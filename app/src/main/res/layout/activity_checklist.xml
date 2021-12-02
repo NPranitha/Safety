@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_repeat"
+    tools:context=".Checklist">
+
+    <TextView
+
+        android:id="@+id/checklist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:text="CHECKLIST"
+        android:textColor="@color/colorAccent"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+
+        android:padding="10dp"
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="500dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:orientation="vertical"
+
+            android:padding="20dp">
+
+            <androidx.appcompat.widget.AppCompatCheckBox
+                android:onClick="onCheckboxClicked"
+                android:buttonTint="@color/colorAccent"
+                android:id="@+id/checkBox1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cellphone and Charger"
+                android:textColor="@color/colorAccent" />
+
+            <androidx.appcompat.widget.AppCompatCheckBox
+                android:onClick="onCheckboxClicked"
+                android:buttonTint="@color/colorAccent"
+                android:id="@+id/checkBox2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:text="Computer" />
+
+            <androidx.appcompat.widget.AppCompatCheckBox
+                android:onClick="onCheckboxClicked"
+                android:buttonTint="@color/colorAccent"
+                android:id="@+id/checkBox3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:text="Driver's Licence" />
+
+            <androidx.appcompat.widget.AppCompatCheckBox
+                android:onClick="onCheckboxClicked"
+                android:buttonTint="@color/colorAccent"
+                android:id="@+id/checkBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:text="Security cards" />
+
+            <androidx.appcompat.widget.AppCompatCheckBox
+                android:onClick="onCheckboxClicked"
+                android:buttonTint="@color/colorAccent"
+                android:id="@+id/checkBox4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:text="Medical Records" />
+
+            <androidx.appcompat.widget.AppCompatCheckBox
+                android:onClick="onCheckboxClicked"
+                android:buttonTint="@color/colorAccent"
+                android:id="@+id/checkBox5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:text="Passports" />
+
+            <androidx.appcompat.widget.AppCompatCheckBox
+                android:onClick="onCheckboxClicked"
+                android:buttonTint="@color/colorAccent"
+                android:id="@+id/checkBox6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:text="Keys" />
+
+            <androidx.appcompat.widget.AppCompatCheckBox
+                android:onClick="onCheckboxClicked"
+                android:buttonTint="@color/colorAccent"
+                android:id="@+id/checkBox7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:text="Cash" />
+            <androidx.appcompat.widget.AppCompatCheckBox
+                android:onClick="onCheckboxClicked"
+                android:buttonTint="@color/colorAccent"
+                android:id="@+id/checkBox12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:text="Original documents" />
+
+            <androidx.appcompat.widget.AppCompatCheckBox
+                android:onClick="onCheckboxClicked"
+                android:buttonTint="@color/colorAccent"
+                android:id="@+id/checkBox10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:text="Non-perishable, ready-to-eat food" />
+
+            <androidx.appcompat.widget.AppCompatCheckBox
+                android:onClick="onCheckboxClicked"
+                android:buttonTint="@color/colorAccent"
+                android:id="@+id/checkBox11"
+                android:layout_width="match_parent"
+                android:textColor="@color/colorAccent"
+                android:layout_height="wrap_content"
+                android:text="Change of Clothing" />
+
+            <androidx.appcompat.widget.AppCompatCheckBox
+                android:onClick="onCheckboxClicked"
+                android:buttonTint="@color/colorAccent"
+                android:id="@+id/checkBox15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:text="Sanitary Devices" />
+
+            <androidx.appcompat.widget.AppCompatCheckBox
+                android:onClick="onCheckboxClicked"
+                android:buttonTint="@color/colorAccent"
+                android:id="@+id/checkBox13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:text="Flashlight" />
+
+            <androidx.appcompat.widget.AppCompatCheckBox
+                android:onClick="onCheckboxClicked"
+                android:buttonTint="@color/colorAccent"
+                android:id="@+id/checkBox14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:text="Toiletries" />
+
+            <androidx.appcompat.widget.AppCompatCheckBox
+                android:onClick="onCheckboxClicked"
+                android:buttonTint="@color/colorAccent"
+                android:id="@+id/checkBox8"
+                android:layout_width="match_parent"
+                android:textColor="@color/colorAccent"
+                android:layout_height="wrap_content"
+                android:text="Coats/Jackets" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

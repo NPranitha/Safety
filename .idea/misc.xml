@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/DELL/Downloads/106118068_app/Safety/app/src/main/res/drawable/magnitude_circle.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/Downloads/106118068_app/Safety/app/src/main/res/layout/activity_contact.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/Downloads/106118068_app/Safety/app/src/main/res/layout/activity_contacts.xml" value="0.4" />
+        <entry key="..\:/Users/DELL/Downloads/106118068_app/Safety/app/src/main/res/layout/activity_earthquake.xml" value="0.21770833333333334" />
+        <entry key="..\:/Users/DELL/Downloads/106118068_app/Safety/app/src/main/res/layout/activity_earthquake_detector.xml" value="0.21770833333333334" />
+        <entry key="..\:/Users/DELL/Downloads/106118068_app/Safety/app/src/main/res/layout/activity_edit_contact.xml" value="0.21770833333333334" />
+        <entry key="..\:/Users/DELL/Downloads/106118068_app/Safety/app/src/main/res/layout/activity_emergency_precautions.xml" value="0.21770833333333334" />
+        <entry key="..\:/Users/DELL/Downloads/106118068_app/Safety/app/src/main/res/layout/activity_help_lline.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/DELL/Downloads/106118068_app/Safety/app/src/main/res/layout/activity_main.xml" value="0.21770833333333334" />
+        <entry key="..\:/Users/DELL/Downloads/106118068_app/Safety/app/src/main/res/layout/content.xml" value="0.21770833333333334" />
+        <entry key="..\:/Users/DELL/Downloads/106118068_app/Safety/app/src/main/res/layout/list_item.xml" value="0.21770833333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

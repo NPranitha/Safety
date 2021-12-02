@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    tools:context=".HurricaneFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="1.Stay inside and away from windows, skylights, and glass doors. Find a safe area in your home (an interior room, a closet or bathroom on the lower level).\n\n2.If flooding threatens your home, turn off electricity at the main breaker.\n\n3.If you lose power, turn off major appliances such as the air conditioner and water heater to reduce damage.\n\n4.Do not use electrical appliances, including your computer.\n\n5.Do not go outside. If the eye of the storm passes over your area, there will be a short period of calm, but at the other side of the eye, the wind speed rapidly increases to hurricane force and will come from the opposite direction. Also, do not go outside to see what the wind feels like. It is too easy to be hit by flying debris.\n\n6.Beware of lightning. Stay away from electrical equipment. Don't use the phone or take a bath/shower during the storm.\n\n7.Remain indoors until an official all clear is given.\n\n8.Watch for weakened roads, bridges, tree limbs or porches that could collapse unexpectedly.\n\n9.Call and inform you dear ones who may be near you.\n\n10.Issue alert on the app."
+        android:textColor="@color/colorAccent"
+        android:textSize="12sp"
+
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp" />
+
+</FrameLayout>

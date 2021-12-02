@@ -1,0 +1,8 @@
+<bitmap
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@drawable/back"
+    android:tileMode="repeat"
+    android:backgroundTint="#80FFFFFF"
+    android:backgroundTintMode="src_over"
+    android:alpha="0.2"
+    android:dither="true" />

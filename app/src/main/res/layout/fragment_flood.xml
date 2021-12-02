@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    tools:context=".FloodFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="500dp"
+        android:id="@+id/scrollView">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="1.Be alert.If a flash flood warning is issued for your area: Climb to safety immediately.\n\n2.Don’t drive unless you have to.If you must drive, travel with care.\n\n3.NEVER drive through flooded roadways. STOP! Turn Around Don’t Drown.\n\n4.Get to high ground – Climb to safety!\n\n5.Evacuate immediately, if you think you are at risk or are advised to do so!\n\n6.Never try to walk or swim through flowing water.\n\n7.Shut off the electricity at the circuit breakers.\n\n8.If someone falls in or is trapped in flood water:Do not go after the victim!Use a floatation device. If possible throw the victim something to help them float, such as a spare tire, large ball, or foam ice chest.\n\n9.Call and inform your dear ones who may be near you.\n\nPREPARE NOW:\n
+            •Know types of flood risk in your area. Visit FEMA’s Flood Map Service Center for information.\n\n
+            •Sign up for your community’s warning system. The Emergency Alert System (EAS) and National Oceanic and Atmospheric Administration (NOAA) Weather Radio also provide emergency alerts.\n\n
+            •If flash flooding is a risk in your location, then monitor potential signs, such as heavy rain.\n\n
+            •Learn and practice evacuation routes, shelter plans, and flash flood response.\n\n
+            •Gather supplies in case you have to leave immediately, or if services are cut off. Keep in mind each person’s specific needs, including medication. Don’t forget the needs of pets. Obtain extra batteries and charging devices for phones and other critical equipment.\n\n
+            •Purchase or renew a flood insurance policy. It typically takes up to 30 days for a policy to go into effect and can protect the life you've built. Homeowner’s policies do not cover flooding. Get flood coverage under the National Flood Insurance Program (NFIP)\n\n
+            •Keep important documents in a waterproof container. Create password-protected digital copies.\n\n
+            •Protect your property. Move valuables to higher levels. Declutter drains and gutters. Install check
+ valves.Consider a sump pump with a battery.\n\n"
+        android:textColor="@color/colorAccent"
+        android:textSize="12sp"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp" />
+
+    </ScrollView>
+
+</LinearLayout>

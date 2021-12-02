@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">@color/colorAccent</color>
+    <color name="purple_500">@color/colorAccent</color>
+    <color name="purple_700">@color/colorAccent</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#980308</color>
+    <color name="colorPrimaryDark">#980308</color>
+    <color name="colorAccent">#980308</color>
+    <color name="DarkGrey">#1e1e1e</color>
+    <color name="light_blue_50">#FFE1F5FE</color>
+    <color name="light_blue_200">#FF81D4FA</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+
+    <color name="gray">#A39696</color>
+
+    <color name="magnitude1">#4A7BA7</color>
+
+    <!-- Magnitude circle color for an earthquake with magnitude between 2 and 3 -->
+    <color name="magnitude2">#04B4B3</color>
+
+    <!-- Magnitude circle color for an earthquake with magnitude between 3 and 4 -->
+    <color name="magnitude3">#10CAC9</color>
+
+    <!-- Magnitude circle color for an earthquake with magnitude between 4 and 5 -->
+    <color name="magnitude4">#F5A623</color>
+
+    <!-- Magnitude circle color for an earthquake with magnitude between 5 and 6 -->
+    <color name="magnitude5">#FF7D50</color>
+
+    <!-- Magnitude circle color for an earthquake with magnitude between 6 and 7 -->
+    <color name="magnitude6">#FC6644</color>
+
+    <!-- Magnitude circle color for an earthquake with magnitude between 7 and 8 -->
+    <color name="magnitude7">#E75F40</color>
+
+    <!-- Magnitude circle color for an earthquake with magnitude between 8 and 9 -->
+    <color name="magnitude8">#E13A20</color>
+
+    <!-- Magnitude circle color for an earthquake with magnitude between 9 and 10 -->
+    <color name="magnitude9">#D93218</color>
+
+    <!-- Magnitude circle color for an earthquake with magnitude over 10 -->
+    <color name="magnitude10plus">#C03823</color>
+
+    <color name="textColorEarthquakeDetails">#B4BAC0</color>
+
+    <!-- Text color for the primary location of the earthquake in the list item -->
+    <color name="textColorEarthquakeLocation">#2B3D4D</color>
+</resources>

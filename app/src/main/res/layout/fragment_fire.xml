@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    tools:context=".FireFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="500dp"
+        android:id="@+id/scrollView">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+           android:text="•Know your community’s evacuation plans and find several ways to leave the area. Drive the evacuation
+ routes
+ and find shelter locations. Have a plan for pets and livestock.\n\n
+  •Gather emergency supplies, including N95 respirator masks that filter out particles in the air you
+ breathe.
+ Keep in mind each person’s specific needs, including and updated asthma action plan
+ and medication. Don’t forget the needs of pets.\n\n
+  •Designate a room that can be closed off from outside air. Close all doors and windows. Set up a
+ portable
+ air
+ cleaner to keep indoor pollution levels low when smoky conditions exist.\n\n
+  •Keep important documents in a fireproof, safe place. Create password-protected digital copies.\n\n
+  •Use fire-resistant materials to build, renovate, or make repairs.\n\n
+  •Find an outdoor water source with a hose that can reach any area of your property.\n\n
+  •Create a fire-resistant zone that is free of leaves, debris, or flammable materials for at least 30
+ feet
+ from your home.\n\n
+  •Review insurance coverage to make sure it is enough to replace your property.\n\n
+  •Pay attention to air quality alerts.\n\n
+  •Evacuate immediately if authorities tell you to do so.\n\n
+  •If trapped, then call 911 and give your location, but be aware that emergency response could be delayed
+ or
+ impossible. Turn on lights to help rescuers find you.\n\n
+  •Listen to EAS, NOAA Weather Radio, or local alerting systems for current emergency information and
+ instructions.\n\n
+  •Use an N95 masks to keep harmful particles out of the air you breathe.\n\n
+  •If you are not ordered to evacuate but smoky conditions exist, stay inside in a safe location or go to
+ a
+ community building where smoke levels are lower.\n\n
+•Keep listening to EAS, NOAA Weather Radio, and local authorities for updated information.\n\n
+•If you are trapped, cover your mouth with a cloth or mask to avoid breathing dust. Try to send a text,
+            bang
+            on a pipe or wall, or use a whistle instead of shouting.\n\n
+•Stay clear of fallen power lines or broken utility lines.\n\n
+•Do not enter damaged buildings until you are told that they are safe.\n\n
+•Save your phone calls for emergencies. Phone systems are often down or busy after a disaster. Use text
+            messaging or social media to communicate with family and friends.\n\n
+•Be careful during clean-up. Wear thick-soled shoes, long pants, and work gloves.\n\n"
+        android:textColor="@color/colorAccent"
+        android:textSize="12sp"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp" />
+    </ScrollView>
+
+
+</LinearLayout>
